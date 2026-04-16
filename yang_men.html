@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Oriental Cuisines Co. - Bootstrap Restaurant Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&family=Pacifico&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-xxl position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
+                <a href="yang_home.html" class="navbar-brand p-0">
+                    <h1 class="text-primary m-0"><i class="fa fa-utensils me-3"></i>Oriental Cuisines Co.</h1>
+                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0 pe-4">
+                        <a href="yang_home.html" class="nav-item nav-link active">Home</a>
+                        <a href="yang_about.html" class="nav-item nav-link">About</a>
+                        <a href="yang_men.html" class="nav-item nav-link">Menu</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="yang_gallery.html" class="dropdown-item">Gallery</a>
+                                <a href="yang_testi.html" class="dropdown-item">Testimonial</a>
+                            </div>
+                        </div>
+                        <a href="yang_cont.html" class="nav-item nav-link">Contact</a>
+                    </div>
+                    <a href="yang_book.html" class="btn btn-primary py-2 px-4">Book A Table</a>
+                </div>
+            </nav>
+
+            <div class="container-xxl py-5 bg-dark hero-header mb-5">
+                <div class="container text-center my-5 pt-5 pb-4">
+                    <h1 class="display-3 text-white mb-3 animated slideInDown">Food Menu</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center text-uppercase">
+                            <li class="breadcrumb-item"><a href="yang_home.html">Home</a></li>
+                            <li class="breadcrumb-item"><a href="yang_men.html">Pages</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Menu</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar & Hero End -->
+
+
+        <!-- Menu Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h5 class="section-title ff-secondary text-center text-primary fw-normal">Food Menu</h5>
+                    <h1 class="mb-5">Most Popular Items</h1>
+                </div>
+                <div class="tab-class text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <ul class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5">
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 ms-0 pb-3 active" data-bs-toggle="pill" href="#tab-1">
+                                <i class="fa fa-coffee fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">Main</small>
+                                    <h6 class="mt-n1 mb-0">Courses</h6>
+                                    
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill" href="#tab-2">
+                                <i class="fa fa-hamburger fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">Special</small>
+                                    <h6 class="mt-n1 mb-0">Sides</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 me-0 pb-3" data-bs-toggle="pill" href="#tab-3">
+                                <i class="fa fa-utensils fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">Popular</small>
+                                    <h6 class="mt-n1 mb-0">Beverages</h6>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="tab-1" class="tab-pane fade show p-0 active">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/1.png" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Peking Duck (China)</span>
+                                                <span class="text-primary">$70</span>
+                                            </h5>
+                                            <small class="fst-italic">A signature Beijing dish featuring crispy, golden-brown duck skin and succulent meat, served with thin pancakes, hoisin sauce, and fresh scallions for a perfect balance of flavor and texture.
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/2.png" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Mapo Tofu (China)</span>
+                                                <span class="text-primary">$29</span>
+                                            </h5>
+                                            <small class="fst-italic">Silky tofu simmered in a fiery Sichuan peppercorn and minced pork sauce, delivering a bold and numbing spice that’s perfect over steamed rice.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/3.png" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Three Cup Chicken (Taiwan)</span>
+                                                <span class="text-primary">$40</span>
+                                            </h5>
+                                            <small class="fst-italic">A fragrant stir-fry of chicken cooked with equal parts soy sauce, sesame oil, and rice wine, infused with fresh basil, garlic, and ginger for a deep, aromatic flavor.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/4.png" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Lu Rou Fan (Taiwan)</span>
+                                                <span class="text-primary">$45</span>
+                                            </h5>
+                                            <small class="fst-italic">A classic Taiwanese braised pork rice dish featuring slow-cooked, caramelized minced pork served over steamed rice with a marinated egg and pickled mustard greens.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/5.png" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Beef Bulgogi (Korea)</span>
+                                                <span class="text-primary">$60</span>
+                                            </h5>
+                                            <small class="fst-italic">Tender slices of marinated beef grilled to perfection with a sweet and savory soy-garlic sauce, served with sesame seeds and scallions for an irresistible umami kick.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/6.png" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Japchae (Korea) </span>
+                                                <span class="text-primary">$30</span>
+                                            </h5>
+                                            <small class="fst-italic">Stir-fried glass noodles tossed with beef, vibrant vegetables, and a slightly sweet sesame-soy sauce, offering a delicious mix of chewy, savory, and sweet textures.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/7.png" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Tonkotsu Ramen (Japan)</span>
+                                                <span class="text-primary">$55</span>
+                                            </h5>
+                                            <small class="fst-italic">A rich, creamy pork bone broth served with springy noodles, chashu pork, soft-boiled egg, bamboo shoots, and green onions, creating the ultimate comfort bowl.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/8.png" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Katsu Curry (Japan)</span>
+                                                <span class="text-primary">$55</span>
+                                            </h5>
+                                            <small class="fst-italic">A crispy breaded pork cutlet served with a hearty Japanese curry sauce and fluffy rice, bringing warmth and comfort in every bite.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-2" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/9.png" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Xiao Long Bao (China)</span>
+                                                <span class="text-primary">$30</span>
+                                            </h5>
+                                            <small class="fst-italic">Juicy, delicate soup dumplings filled with pork and rich broth, served hot with black vinegar and ginger for the perfect bite.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/10.png" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Kimchi (Korea)</span>
+                                                <span class="text-primary">$25</span>
+                                            </h5>
+                                            <small class="fst-italic"> A staple Korean side dish made of fermented napa cabbage and radish, seasoned with chili, garlic, and fish sauce, delivering a punch of spice and tanginess.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/11.png" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Gyoza (Japan)</span>
+                                                <span class="text-primary">$30</span>
+                                            </h5>
+                                            <small class="fst-italic">Crispy pan-fried dumplings filled with a savory mix of pork, cabbage, and garlic, served with a soy-vinegar dipping sauce for a perfect umami boost.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/12.png" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Scallion Pancakes (China)</span>
+                                                <span class="text-primary">$15</span>
+                                            </h5>
+                                            <small class="fst-italic">Crispy, flaky, and savory pancakes layered with fragrant scallions, served hot with a soy-based dipping sauce.
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/13.png" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Onigiri (Japan)</span>
+                                                <span class="text-primary">$25</span>
+                                            </h5>
+                                            <small class="fst-italic">Handcrafted rice balls wrapped in nori and filled with ingredients like grilled salmon, tuna mayo, or pickled plum for a satisfying snack.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/14.png" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Popcorn Chicken (Taiwan)</span>
+                                                <span class="text-primary">$35</span>
+                                            </h5>
+                                            <small class="fst-italic">Crispy, bite-sized chicken pieces seasoned with five-spice powder and fried to perfection, served with fresh basil for an extra crunch.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/15.png" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Tteokbokki (Korea)</span>
+                                                <span class="text-primary">$30</span>
+                                            </h5>
+                                            <small class="fst-italic"> Chewy rice cakes simmered in a bold and spicy gochujang sauce, often topped with fish cakes, boiled eggs, and sesame seeds.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/16.png" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Century Egg & Tofu (China)</span>
+                                                <span class="text-primary">$15</span>
+                                            </h5>
+                                            <small class="fst-italic">Silky chilled tofu topped with century egg, soy sauce, sesame oil, and bonito flakes for a unique and umami-rich appetizer.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-3" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/17.png" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Bubble Tea (Taiwan)</span>
+                                                <span class="text-primary">$15</span>
+                                            </h5>
+                                            <small class="fst-italic">The iconic Taiwanese milk tea with chewy tapioca pearls, available in flavors like classic black tea, taro, or matcha.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/18.png" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Sakura Iced Tea (Japan)</span>
+                                                <span class="text-primary">$15</span>
+                                            </h5>
+                                            <small class="fst-italic">A delicate and floral iced tea infused with cherry blossoms, offering a refreshing and slightly sweet aroma.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/19.png" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Sikhye (Korea)</span>
+                                                <span class="text-primary">$15</span>
+                                            </h5>
+                                            <small class="fst-italic">A traditional sweet rice punch made from fermented barley and rice, served chilled for a subtly sweet and refreshing finish.                                            </small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/20.png" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Soybean Milk (China)</span>
+                                                <span class="text-primary">$15</span>
+                                            </h5>
+                                            <small class="fst-italic">A smooth, creamy, and mildly sweet soy drink enjoyed hot or cold, perfect alongside breakfast or dim sum.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/21.png" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Matcha Latte (Japan)</span>
+                                                <span class="text-primary">$15</span>
+                                            </h5>
+                                            <small class="fst-italic">A rich and creamy blend of finely ground green tea and steamed milk, providing a smooth and slightly earthy flavor.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/22.png" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Winter Melon Tea (Taiwan)</span>
+                                                <span class="text-primary">$15</span>
+                                            </h5>
+                                            <small class="fst-italic">A naturally sweetened herbal tea brewed with winter melon, offering a light, honey-like taste that’s both cooling and soothing.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/23.png" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Makgeolli (Korea)</span>
+                                                <span class="text-primary">$15</span>
+                                            </h5>
+                                            <small class="fst-italic">A lightly sparkling, milky rice wine with a subtle sweetness, often enjoyed chilled with Korean barbecue.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="d-flex align-items-center">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/24.png" alt="" style="width: 80px;">
+                                        <div class="w-100 d-flex flex-column text-start ps-4">
+                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                                <span>Chrysanthemum Tea (China)</span>
+                                                <span class="text-primary">$15</span>
+                                            </h5>
+                                            <small class="fst-italic">A floral and fragrant herbal tea brewed from dried chrysanthemum flowers, known for its soothing and refreshing qualities.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Menu End -->
+
+        <div class="container-xxl pt-5 pb-3">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h5 class="section-title ff-secondary text-center text-primary fw-normal">Our Inspiration</h5>
+                    <h1 class="mb-5">Why Oriental Foods?</h1>
+                </div>
+                <div class="text-center wow fadeInUp" style ="margin-left: 210px; margin-right: 210px; text-align: justify;">
+                    <p style ="text-align: justify;">At <b>Oriental Cuisines Co.</b>, our passion for Asian cuisine goes beyond just serving food—it’s about sharing a rich culinary heritage that has been perfected over centuries. The diverse flavors of the East tell stories of tradition, artistry, and culture, each dish crafted with techniques passed down through generations. From the sizzling woks of China to the delicate precision of Japanese sushi, the bold spices of Korea, and the comforting aromas of Taiwanese street food, our mission is to bring the authentic essence of Oriental cuisine to every plate we serve.</p>
+                    <br>
+                    <img src="img/y1.png" alt="" style="display: block; margin: auto; width: 850px; height: 450px;">
+                    <br><br>
+                    <p style ="text-align: justify;">What makes Oriental cuisine so captivating is its <b>balance of flavors and textures</b>. Each bite is a perfect harmony of sweet, savory, spicy, and umami, carefully layered to create a unique and memorable dining experience. The silkiness of <b>mapo tofu</b>, the crispy perfection of <b>Peking duck</b>, the rich depth of <b>Japanese ramen broth</b>, and the satisfying chew of <b>tteokbokki</b>—these are just a few of the dishes that define the extraordinary world of Asian flavors. At Oriental Cuisines Co., we celebrate this diversity by ensuring that every dish we serve honors its roots while delighting the modern palate.</p>
+                    <br>
+                    <img src="img/y2.png" alt="" style="display: block; margin: auto; width: 850px; height: 450px;">
+                    <br><br>
+                    <p style ="text-align: justify;">Beyond taste, Oriental cuisine embodies <b>culture and tradition</b>. Every meal is a reflection of history and community, from the elaborate feasts of imperial China to the vibrant street food of Taiwan, the family-style dining of Korea, and the delicate craftsmanship of Japanese kaiseki. Food is more than sustenance; it is an experience that brings people together, a celebration of life’s special moments. At our core, we strive to create not just meals, but lasting memories—whether it’s a simple gathering or an extravagant banquet, our food carries the spirit of the East.</p>
+                    <br>
+                    <img src="img/y3.png" alt="" style="display: block; margin: auto; width: 850px; height: 450px;">
+                    <br><br>
+                    <p style ="text-align: justify;">Our dedication to Oriental cuisine also stems from our respect for its culinary philosophy. Asian cooking is rooted in balance and wellness, using fresh, natural ingredients and time-honored techniques to nourish both body and soul. From the medicinal benefits of herbal broths to the precision of umami-rich fermentation, every dish tells a story of mindful preparation and deep appreciation for nature’s bounty. At Oriental Cuisines Co., we take pride in maintaining these principles, ensuring that our food is as wholesome as it is delicious.</p>
+                    <br>
+                    <img src="img/y4.png" alt="" style="display: block; margin: auto; width: 850px; height: 450px;">
+                    <br><br>
+                    <p style ="text-align: justify;">Ultimately, we serve Oriental cuisine because <b>it is an experience like no other</b>—one that captivates the senses, connects people across cultures, and honors the artistry of generations before us. Our passion drives us to perfect every recipe, refine every flavor, and deliver not just food, but a journey through the heart of Asia. Whether you're discovering these flavors for the first time or rekindling fond memories, we invite you to indulge in the richness of the East and let every bite transport you to a world of taste, tradition, and timeless elegance.</p>
+                </div>
+                </div>
+        </div>
+        <!-- Team End -->
+
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Company</h4>
+                        <a class="btn btn-link" href="yang_about.html">About Us</a>
+                        <a class="btn btn-link" href="yang_cont.html">Contact Us</a>
+                        <a class="btn btn-link" href="yang_book.html">Reservation</a>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Contact</h4>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>1191, Pablo Ocampo, Makati City, Metro Manila, PH</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+63 0939-353-6962</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>orientalcuisinesco@gmail.com</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href="x.com"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="fb.com"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="youtube.com"><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="linkedin.com"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Opening</h4>
+                        <h5 class="text-light fw-normal">Weekdays</h5>
+                        <p>9:00 AM - 10:00 PM</p>
+                        <h5 class="text-light fw-normal">Weekends</h5>
+                        <p>1:00 PM - 10:00 PM</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Newsletter</h4>
+                        <p>Subscribe to our newsletter to receive more updates.</p>
+                        <div class="position-relative mx-auto" style="max-width: 400px;">
+                            <input class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                            <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; <a class="border-bottom" href="yang_home.html">Oriental Cuisines Co.</a>, All Right Reserved. 
+							
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <div class="footer-menu">
+                                <a href="yang_home.html">Home</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
